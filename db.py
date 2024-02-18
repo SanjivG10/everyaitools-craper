@@ -4,6 +4,5 @@ client = MongoClient("mongodb://localhost:27017/")
 
 db = client.everyaitools
 
-collection = db.Url
+tool = db.tool
 
-new_collection = db.UpdatedUrl
